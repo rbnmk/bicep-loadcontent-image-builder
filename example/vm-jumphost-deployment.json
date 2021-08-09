@@ -9,7 +9,7 @@
             "value": "https://<StorageAccountName>.blob.core.windows.net/vhds/<VHDNAME>.vhd"
         },
         "rdshPrefix": {
-            "value": "jumphost"
+            "value": "JumphostVM"
         },
         "rdshVMDiskType": {
             "value": "StandardSSD_LRS"
