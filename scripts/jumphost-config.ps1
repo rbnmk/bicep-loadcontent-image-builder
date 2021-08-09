@@ -4,7 +4,7 @@ choco feature enable -n allowGlobalConfirmation
 Write-Host "Chocolatey Installed"
 
 Write-Host "Installing tools using Chocolatey!"
-choco install googlechrome git powershell-core notepadplusplus.install az.powershell azure-cli r.project bicep microsoftazurestorageexplorer vscode vscode-python r.studio powerbi python sql-server-management-studio visualstudio2019community --yes --no-progress
+choco install googlechrome powershell-core notepadplusplus.install az.powershell azure-cli bicep microsoftazurestorageexplorer vscode sql-server-management-studio --yes --no-progress
 Write-Host "Installing tools using Chocolatey Complete!"
 
 Write-Host "Installing RSAT"
