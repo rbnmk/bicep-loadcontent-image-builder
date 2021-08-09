@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "availabilityOption": {
+            "value": "None"
+        },
+        "vmImageVhdUri": {
+            "value": "https://<StorageAccountName>.blob.core.windows.net/vhds/<VHDNAME>.vhd"
+        },
+        "rdshPrefix": {
+            "value": "jumphost"
+        },
+        "rdshVMDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "subnet_id":{
+            "value": "<subnetResourceId>"
+        },
+        "rdshNumberOfInstances":{
+            "value": 1
+        }
+    }
+}
